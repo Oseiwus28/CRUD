@@ -1,0 +1,25 @@
+CRUD TABLE
+	CREATE
+1.Database connection using sequelize,ORM and mysql2
+2.Create a user model/table called users
+3.The model should have the following columns
+	*ID
+	*first name
+	*last name
+	*Age
+4.Make sure name attributes are attached to the form
+5.Create a post route which will be used to handle adding
+6.Make sure to add the http method post and action attribute to the form
+7.Save the record and redirect the user back to default page
+
+
+	READ
+1.call the functions that will get all the record from the model.
+2.Convert the result of the retrievd model in an array.
+3.Return the view with the records eg. render('index'{records})
+4.Within the view that the records needs to be displays loops through the tr row to display each record from the records sent to the view
+5.also attach each record's id using html data attribute to the delete and edit button
+
+	DELETE 
+1.Attach a unique ID to each btn generated 
+2.When a user click on the delete, using sweetAlert dialog,confirm if the user wishes to
